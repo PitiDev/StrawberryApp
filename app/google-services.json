@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "4418407325",
+    "firebase_url": "https://lao-strawberry.firebaseio.com",
+    "project_id": "lao-strawberry",
+    "storage_bucket": "lao-strawberry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4418407325:android:b1423ad4205ae314",
+        "android_client_info": {
+          "package_name": "pitidev.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4418407325-js32lujed1ndv0fmu5j75v08a74rgd9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pitidev.com",
+            "certificate_hash": "d510d73ac5c3e8fd5244aa69dd7edfeed6b9e7a4"
+          }
+        },
+        {
+          "client_id": "4418407325-12b1psn2u1c2fn8g1kg7b2cm7d4sk073.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPrNXxQvII1Ex3DASz6a4CSiqCwL1NAfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4418407325-12b1psn2u1c2fn8g1kg7b2cm7d4sk073.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
