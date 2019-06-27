@@ -1,6 +1,5 @@
 package pitidev.com;
 
-import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,23 +9,23 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
 
-public class ControlActivity extends AppCompatActivity {
+public class StatusActivity extends AppCompatActivity {
 
-    private WebView webView;
     private TextView tvtoobar;
+    private WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_control);
+        setContentView(R.layout.activity_status);
 
         tvtoobar = (TextView) findViewById(R.id.tvtoobar);
+        webView = (WebView) findViewById(R.id.Ldr);
         Typeface typeface = Typeface.createFromAsset(getAssets(),"laop.ttf");
         tvtoobar.setTypeface(typeface);
 
-        webView = (WebView) findViewById(R.id.Control);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://lao-strawberry.firebaseapp.com/control.html");
+        webView.loadUrl("https://lao-strawberry.firebaseapp.com/status.html");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

@@ -22,7 +22,7 @@
         <activity android:name=".DashbourdActivity" />
         <activity android:name=".SettingActivity" />
         <activity android:name=".ControlActivity" />
-        <activity android:name=".LdrActivity" />
+        <activity android:name=".StatusActivity" />
         <activity android:name=".TemOutActivity" />
         <activity android:name=".TemInActivity" />
         <activity android:name=".MainActivity" />

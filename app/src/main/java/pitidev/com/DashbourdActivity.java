@@ -26,7 +26,7 @@ public class DashbourdActivity extends AppCompatActivity {
         tvtoobar.setTypeface(typeface);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://pitiiot.firebaseapp.com/dashboard.html");
+        webView.loadUrl("https://netpie.io/freeboard/laocontrol");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

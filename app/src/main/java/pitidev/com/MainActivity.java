@@ -8,7 +8,6 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
@@ -97,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Ldr(View view) {
-        Intent intent = new Intent(this, LdrActivity.class);
+        Intent intent = new Intent(this, StatusActivity.class);
         startActivity(intent);
     }
 

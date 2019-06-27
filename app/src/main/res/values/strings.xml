@@ -13,4 +13,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+    <string name="about">
+        ແອັບພິເຄເຊີນ StrawIoT ແມ່ນສ້າງຂື້ນມາເພື່ອໃຊ້ງານສະເພາະດ້ານໃນວຽກງານ IoT ຂອງໂຮງເຮືອນສະຕຣໍເບີຣີອັດສະລິຍະ ພາຍໃຕ້ໂຄງການ IoTCloudServe@TIEN ແລະ ເປັນບົດໂຄງການຈົບຊັ້ນປະຣີນຍາຕິຂອງນັກສືກສາ
+    </string>
 </resources>

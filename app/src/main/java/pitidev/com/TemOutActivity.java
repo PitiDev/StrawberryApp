@@ -26,7 +26,7 @@ public class TemOutActivity extends AppCompatActivity {
         tvtoobar.setTypeface(typeface);
 
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://pitiiot.firebaseapp.com/temout.html");
+        webView.loadUrl("https://lao-strawberry.firebaseapp.com/temout.html");
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);

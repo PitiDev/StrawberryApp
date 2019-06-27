@@ -43,21 +43,6 @@ public class SettingActivity extends AppCompatActivity {
         tvtoobar.setTypeface(typeface);
         tvdate.setTypeface(typeface);
 
-//        textView = (TextView) findViewById(R.id.tvDate);
-//        mRef  = FirebaseDatabase.getInstance().getReference("date").child("date");
-//
-//        mRef.addValueEventListener(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-//                String date = dataSnapshot.getValue(String.class);
-//                textView.setText(date);
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError databaseError) {
-//
-//            }
-//        });
 
     }
 
